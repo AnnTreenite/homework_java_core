@@ -1,10 +1,6 @@
 package Homework3.CarTask;
 
 public class Tayota extends Car {
-
-    public void  particularity () {
-        System.out.println("включает музыку");
-    }
     String model;
     String engine;
     String transmission;
@@ -15,4 +11,8 @@ public class Tayota extends Car {
         this.transmission = typeOfTransmission;
         this.transmissionSpeed = gearTransmission;
     }
+    public void  particularity () {
+        System.out.println("включает музыку");
+    }
+
 }

@@ -1,10 +1,6 @@
 package Homework3.CarTask;
 
 public class Zhiguli extends Car {
-
-    public void particularity () {
-        System.out.println("она ломается");
-    }
     String model;
     String engine;
     String transmission;
@@ -14,5 +10,8 @@ public class Zhiguli extends Car {
         this.engine = typeOfEngine;
         this.transmission = typeOfTransmission;
         this.transmissionSpeed = gearTransmission;
+    }
+    public void particularity () {
+        System.out.println("она ломается");
     }
 }
