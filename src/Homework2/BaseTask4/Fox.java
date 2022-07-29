@@ -14,5 +14,4 @@ public class Fox {
     public void setCuteName(String newCuteName) {
         this.name = newCuteName;
     }
-
 }
