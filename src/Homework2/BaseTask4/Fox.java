@@ -9,9 +9,11 @@ public class Fox {
         this.height = personHeight;
     }
     public void whereIs () {
+
         System.out.println("Where is the " + this.name);
     }
     public void setCuteName(String newCuteName) {
+
         this.name = newCuteName;
     }
 }

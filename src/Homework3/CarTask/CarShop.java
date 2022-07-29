@@ -6,11 +6,13 @@ public class CarShop {
         Tayota rav4 = new Tayota("rav4 LE", "Gasoline", "TV-AWD", 8);
         rav4.particularity();
         prius.particularity();
+        rav4.driveTo();
 
-        Zhiguli kopeika = new Zhiguli("VAZ 21-01", "Gasoline", "Manual", 4);
-        Zhiguli shesterka = new Zhiguli("VAZ 2106", "Gasoline", "Manual", 4);
-        kopeika.particularity();
-        shesterka.particularity();
+        Zhiguli VAZ2101 = new Zhiguli("kopeika", "Gasoline", "Manual", 4);
+        Zhiguli VAZ2106 = new Zhiguli("shesterka", "Gasoline", "Manual", 4);
+        VAZ2101.particularity();
+        VAZ2106.particularity();
+        VAZ2101.startSound();
     }
 
 }

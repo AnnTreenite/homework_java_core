@@ -12,6 +12,7 @@ public class Ferret {
         System.out.println("Go to walk " + this.name);
     }
     public void setCuteName (String newCuteName) {
+
         this.name = newCuteName;
     }
 
