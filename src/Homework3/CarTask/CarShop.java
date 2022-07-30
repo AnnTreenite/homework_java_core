@@ -2,8 +2,8 @@ package Homework3.CarTask;
 
 public class CarShop {
     public static void main(String[] args) {
-        Tayota prius = new Tayota("Prius Prime", "Hybrid","ECVT",1);
-        Tayota rav4 = new Tayota("rav4 LE", "Gasoline", "TV-AWD", 8);
+        Toyota prius = new Toyota("Prius Prime", "Hybrid","ECVT",1);
+        Toyota rav4 = new Toyota("rav4 LE", "Gasoline", "TV-AWD", 8);
         rav4.particularity();
         prius.particularity();
         rav4.driveTo();

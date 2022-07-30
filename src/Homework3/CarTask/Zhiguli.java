@@ -7,6 +7,11 @@ public class Zhiguli extends Car {
         this.transmission = typeOfTransmission;
         this.transmissionSpeed = gearTransmission;
     }
+
+    public Zhiguli() {
+        System.out.println("new Old car");
+    }
+
     public void particularity () {
         System.out.println("она ломается");
     }

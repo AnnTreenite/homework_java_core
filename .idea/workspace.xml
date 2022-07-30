@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b466e639-7064-4fd4-ba0b-e4fdf5e0fce7" name="Changes" comment="fixed Base Task 2">
-      <change afterPath="$PROJECT_DIR$/report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/FinancialRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Homework3.java" afterDir="false" />
+    <list default="true" id="b466e639-7064-4fd4-ba0b-e4fdf5e0fce7" name="Changes" comment="Task 3 доходы + расходы">
+      <change afterPath="$PROJECT_DIR$/src/Homework3/CarTask/CarFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework3/CarTask/Tayota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/CarTask/Tayota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework3/CarTask/Zhiguli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/CarTask/Zhiguli.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +47,13 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.postfix.templates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Homework3">
-    <configuration name="BaseTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.BaseTask3" />
+  <component name="RunManager" selected="Application.CarFactory">
+    <configuration name="CarFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.CarTask.CarFactory" />
       <module name="homework_java_core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.*" />
+          <option name="PATTERN" value="Homework3.CarTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarFactory" />
         <item itemvalue="Application.Homework3" />
         <item itemvalue="Application.Homework3.BaseTask2" />
         <item itemvalue="Application.CarShop" />
         <item itemvalue="Application.zoo" />
-        <item itemvalue="Application.BaseTask3" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659183733733</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Task 3 доходы + расходы">
+      <created>1659191321991</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659191321991</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +211,8 @@
     <MESSAGE value="Fixed superclass" />
     <MESSAGE value="Базовое второе задание - проблемы с No such file or directory" />
     <MESSAGE value="fixed Base Task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed Base Task 2" />
+    <MESSAGE value="Task 3 доходы + расходы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3 доходы + расходы" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
