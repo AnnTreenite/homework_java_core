@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b466e639-7064-4fd4-ba0b-e4fdf5e0fce7" name="Changes" comment="Global fix">
+    <list default="true" id="b466e639-7064-4fd4-ba0b-e4fdf5e0fce7" name="Changes" comment="убрала продвинутый =)">
+      <change afterPath="$PROJECT_DIR$/src/Homework4/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework4/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework4/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework4/FlyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework4/Flying.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework3/CarTask/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/CarTask/CarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework3/CarTask/CarFactory.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,13 +51,13 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.postfix.templates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CarFactory">
-    <configuration name="CarFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework3.CarTask.CarFactory" />
+  <component name="RunManager" selected="Application.Base">
+    <configuration name="Airplane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework4.Airplane" />
       <module name="homework_java_core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework3.CarTask.*" />
+          <option name="PATTERN" value="Homework4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,8 +65,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework3.CarTask.CarShop" />
+    <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework4.Base" />
+      <module name="homework_java_core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.CarTask.CarFactory" />
       <module name="homework_java_core" />
       <extension name="coverage">
         <pattern>
@@ -98,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.BaseTask4.zoo" />
-      <module name="homework_java_core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework2.BaseTask4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Base" />
+        <item itemvalue="Application.Airplane" />
         <item itemvalue="Application.CarFactory" />
         <item itemvalue="Application.Homework3" />
         <item itemvalue="Application.Homework3.BaseTask2" />
-        <item itemvalue="Application.CarShop" />
-        <item itemvalue="Application.zoo" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659197321698</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="убрала продвинутый =)">
+      <created>1659267082437</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659267082437</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +231,8 @@
     <MESSAGE value="fixed Base Task 2" />
     <MESSAGE value="Task 3 доходы + расходы" />
     <MESSAGE value="Global fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Global fix" />
+    <MESSAGE value="убрала продвинутый =)" />
+    <option name="LAST_COMMIT_MESSAGE" value="убрала продвинутый =)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
