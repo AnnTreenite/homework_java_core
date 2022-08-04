@@ -5,12 +5,6 @@ public class Airplane implements Flying {
     public Airplane (int passenger) {
         this.countPassenger = passenger;
     }
-//    public void Airplane() throws FlyException {
-//        if (countPassenger < 0) {
-//            throw new FlyException();
-//        }
-//    }
-
     @Override
     public void flies() throws FlyException {
         if (countPassenger < 0) {

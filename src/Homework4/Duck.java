@@ -6,13 +6,6 @@ public class Duck implements Flying {
     public Duck(boolean isShoot) {
         this.shootDuck = isShoot;
     }
-
-//    public void Duck() throws FlyException {
-//        if (shootDuck) {
-//            throw new FlyException();
-//        }
-//    }
-
     @Override
     public void flies() throws FlyException {
         if (shootDuck) {
