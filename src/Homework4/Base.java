@@ -6,7 +6,8 @@ public class Base {
         for (Flying flying : array) {
             try {
                 flying.flies();
-        } catch (Exception e) {
+        } catch (FlyException e) {
+                System.out.println(e.messageTo);
             }
         }
     }

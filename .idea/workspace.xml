@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b466e639-7064-4fd4-ba0b-e4fdf5e0fce7" name="Changes" comment="убрала продвинутый =)">
-      <change afterPath="$PROJECT_DIR$/src/Homework4/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework4/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework4/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework4/FlyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework4/Flying.java" afterDir="false" />
+    <list default="true" id="b466e639-7064-4fd4-ba0b-e4fdf5e0fce7" name="Changes" comment="Homework4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework3/CarTask/CarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework4/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Base.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659267082437</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Homework4">
+      <created>1659641435558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659641435558</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +234,8 @@
     <MESSAGE value="Task 3 доходы + расходы" />
     <MESSAGE value="Global fix" />
     <MESSAGE value="убрала продвинутый =)" />
-    <option name="LAST_COMMIT_MESSAGE" value="убрала продвинутый =)" />
+    <MESSAGE value="Homework4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
